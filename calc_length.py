@@ -28,21 +28,3 @@ for file in file_list:
 
 plt.scatter(length_list, speed_list)
 plt.show()
-
-
-
-# print(each_time_counts)
-# print("> tyr to sort the list...")
-
-# time_list = []
-# count_list = []
-
-# for time in sorted(each_time_counts.keys()):
-#     time_list.append(datetime.datetime.strptime(time, "%Y%m%d_%H:%M:%S,%f"))
-#     count_list.append(each_time_counts[time])
-
-# for x in range(1, len(count_list)):
-#     count_list[x] += count_list[x -1]
-
-# plt.plot(time_list, count_list)
-# plt.show()
